@@ -34,7 +34,7 @@ header > h2 {
 }
 
 figure > figcaption {
-    padding: 10px 25px;
+    padding: 10px 30px;
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     font-style: italic;
@@ -43,7 +43,7 @@ figure > figcaption {
 
 main {
     margin-top: 1rem;
-    padding: 5px 25px;
+    padding: 5px 30px;
 }
 
 section > h3 {
@@ -73,7 +73,7 @@ main > section:last-child {
 }
 
 footer {
-    padding: 15px 25px;
+    padding: 15px 20px;
     font-weight: 200;  
     color: rgb(255, 255, 255);
     background-color: #da9537;
