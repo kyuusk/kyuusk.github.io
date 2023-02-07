@@ -1,0 +1,95 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+    display: block;
+}
+
+body {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    background-color: #deddde;
+}
+
+.container {
+    display: grid;
+    max-width: 70rem;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #da9537;
+    padding: 35px 20px 20px 20px;
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+    grid-column: 1/5;
+}
+
+header > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.875rem;
+}
+
+header > h2 {
+    margin-top: 0.5rem;
+    color: #f1dfbf;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+figure {
+    grid-column: 1/5;
+}
+
+figure > figcaption {
+    padding: 10px 30px;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    color: #222222;
+}
+
+main {
+    margin-top: 1rem;
+    padding: 5px 30px;
+}
+
+section > h3 {
+    color: #db9a3d;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.15rem;
+}
+
+section ul, section ol {
+    margin-top: 0.75rem;
+}
+
+li {
+    margin-bottom: 0.75rem;
+}
+
+section ul li:last-child, section ol li:last-child {
+    margin-bottom: 0;
+}
+
+main > section:last-child {
+    margin-top: 2.5rem;
+}
+
+footer {
+    padding: 15px 20px;
+    font-weight: 200;  
+    color: rgb(255, 255, 255);
+    background-color: #da9537;
+    margin-top: 2.5rem;
+}
