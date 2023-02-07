@@ -24,7 +24,7 @@ body {
 
 header {
     background-color: #da9537;
-    padding: 35px 20px 20px 20px;
+    padding: 55px 20px 20px 20px;
     font-family: Sutro, serif;  
     font-weight: 700;  
     font-style: normal;
@@ -45,10 +45,16 @@ header > h2 {
 
 figure {
     grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+figure > img {
+    grid-column: 1/4;
 }
 
 figure > figcaption {
-    padding: 10px 30px;
+    padding: 30px 30px;
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     font-style: italic;
@@ -56,8 +62,26 @@ figure > figcaption {
 }
 
 main {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     padding: 5px 30px;
+    grid-column: 1/5;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+main > section {
+    border-top: 2px solid #db9a3d;
+    padding-top: 10px;
+}
+
+main section:first-child {
+    grid-column: 1/3;
+    margin-right: 2.5rem;
+}
+
+main section:last-child {
+    grid-column: 3/5;
 }
 
 section > h3 {
@@ -82,14 +106,11 @@ section ul li:last-child, section ol li:last-child {
     margin-bottom: 0;
 }
 
-main > section:last-child {
-    margin-top: 2.5rem;
-}
-
 footer {
     padding: 15px 20px;
     font-weight: 200;  
     color: rgb(255, 255, 255);
     background-color: #da9537;
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
+    grid-column: 1/5;
 }
