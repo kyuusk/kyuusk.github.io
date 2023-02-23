@@ -206,7 +206,7 @@ p.slogan {
 	font-family: 'Gloock', serif;
 	font-weight: 500rem;
 	margin: 2rem 0rem 1.5rem;
-	color: #fafafa;
+	color: #ffffff;
 }
 
 footer {
@@ -217,11 +217,11 @@ footer {
 	box-sizing: border-box;
 	padding: 0.45rem;
 	background-color: #fdfd58;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 address {
-	color: #eca221;
+	color: #ffc400;
 }
 
 footer p {
