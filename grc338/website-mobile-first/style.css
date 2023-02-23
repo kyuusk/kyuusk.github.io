@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+html {
+	font-family: 'Inter', sans-serif;
+}
+
+div.home-container { 
+	background: url(images/home-background.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+
+
+main { 
+	padding: 1.5rem;
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+header {
+	/* display: flex;
+	justify-content: space-between;
+	align-items: center; */
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #cccccc;
+	padding: 1rem 0.5rem;
+	}
+
+h1 {
+	width: 10rem;
+	}
+
+h2, h3, h4 {
+		font-weight: ____;
+	}
+
+h2 {
+	font-size: ____;
+	margin: ____ ____ ____;
+	}
+	
+h3 {
+	font-size: ____;
+	margin: ____ ____ ____;
+}
+
+nav ul  {
+	text-align: right;
+	}
+	
+ul li 	{
+	list-style-type: none;
+}
+
+figure {
+	margin-bottom: ____;
+}
+
+main.menu ul {
+		margin: ____ ____;
+}	
+
+main.menu ul li {
+		margin: ____ ____ ____;
+		display: ____;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+}	
+
+p {
+	margin: ____ ____ ____;
+	}
+	
+p.description {
+	grid-column: ____;
+	margin: ____;
+	}
+	
+p.price {
+	grid-row: ____;
+	grid-column: ____;
+	color: ____;
+	text-align: ____;
+	margin: ____;
+	}
+	
+nav ul li {
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	overflow: hidden;
+	padding: 0.45rem;
+	}
+	
+nav ul li a {
+	text-decoration: none;
+	color: #fdfd58;
+	background-color: #2623f4;
+	padding: 0.45rem;
+	}
+	
+
+p.slogan {
+	font-size: 3.5rem;
+	font-family: 'Gloock', serif;
+	font-weight: 500rem;
+	font-style: italic;
+	color: #fafafa;	
+	}
+	
+.home-container > main {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.home-container > main > section {
+	margin-top: auto;
+	color: #eca221;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+	padding-left: 0.45rem;
+  background-color: #fdfd58;
+}
+
+address {
+	color: ____;
+	}
+
+footer p {
+	margin: 0;
+}
+
