@@ -243,10 +243,6 @@ article {
 	width: 70%;
 }
 
-@media screen and (min-width: 20em) {
-
-}
-
 @media screen and (min-width: 26em) {
 	p.slogan {
 		margin-bottom: 2.5rem;
