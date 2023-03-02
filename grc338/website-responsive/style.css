@@ -282,7 +282,6 @@ article {
 	main.menu ul {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		/* make the gap only apply between columns, not rows */
 		grid-column-gap: 2.5rem;
 	}
 }
