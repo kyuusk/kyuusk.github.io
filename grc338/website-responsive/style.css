@@ -92,6 +92,8 @@ video {
 
 html {
 	font-family: 'Inter', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 div.home-container {
@@ -103,6 +105,7 @@ div.container {
 	position: relative;
 	min-height: 100vh;
 	background-color: #fafafa;
+	min-height: -webkit-fill-available; /* Safari iOS 100vh bug */
 }
 
 /* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
@@ -116,6 +119,7 @@ img {
 	width: 100%;
 	/*Please leave this line.*/
 	display: block;
+	border-radius: 0.5rem;
 }
 
 header {
@@ -170,6 +174,10 @@ main.menu ul li {
 	grid-template-rows: auto auto;
 }
 
+main.menu section:last-child {
+	margin-bottom: 2.5rem;
+}
+
 p {
 	margin: 1rem 0rem;
 }
@@ -185,6 +193,7 @@ p.price {
 	color: rgb(255, 0, 0);
 	justify-self: end;
 	margin: 0rem;
+	font-weight: 600;
 }
 
 nav ul li {
@@ -219,11 +228,13 @@ p.slogan {
 
 footer {
 	position: absolute;
+	display: flex;
+	align-items: center;
+	padding-left: 0.5rem;
 	bottom: 0;
 	width: 100%;
 	height: 3rem;
 	box-sizing: border-box;
-	padding: 0.45rem;
 	background-color: #fdfd58;
 	font-weight: 400;
 }
@@ -238,9 +249,10 @@ footer p {
 
 article {
 	background-color: #a8f6fd;
-	margin: 1rem auto;
+	border-radius: 0.5rem;
+	margin: 1rem auto 2rem auto;
 	padding: 0.5rem;
-	width: 70%;
+	width: 75%;
 }
 
 @media screen and (min-width: 26em) {
