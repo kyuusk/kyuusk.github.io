@@ -105,7 +105,6 @@ div.container {
 	position: relative;
 	min-height: 100vh;
 	background-color: #fafafa;
-	min-height: -webkit-fill-available; /* Safari iOS 100vh bug */
 }
 
 /* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
