@@ -381,4 +381,9 @@ article {
 	nav ul li a:hover {
 		color: #fff;
 	}
+
+	h1 a>img:hover {
+		opacity: 0.8;
+		transition: 0.1s;
+	}
 }
